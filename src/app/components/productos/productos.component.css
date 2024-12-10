@@ -1,0 +1,43 @@
+/* Estilo de la galería de productos */
+.product-gallery {
+    display: grid; /* Usa grid para la disposición */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Columnas responsivas */
+    gap: 16px; /* Espacio entre elementos */
+    padding: 16px; /* Espaciado interno */
+}
+.product-item {
+    border: 1px solid #ddd; /* Borde gris claro */
+    border-radius: 8px; /* Esquinas redondeadas */
+    overflow: hidden; /* Oculta desbordamientos */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    text-align: center; /* Centra el texto */
+    padding: 16px; /* Espaciado interno */
+    background-color: #fff; /* Fondo blanco */
+}
+.product-item img {
+    max-width: 100%; /* Ancho máximo del 100% */
+    height: auto; /* Altura automática */
+    border-bottom: 1px solid #ddd; /* Borde inferior */
+    margin-bottom: 8px; /* Espaciado inferior */
+}
+.product-item h3 {
+    font-size: 18px; /* Tamaño de fuente */
+    margin: 8px 0; /* Márgenes verticales */
+    color: #539fa2; /* Color de texto color1 */
+}
+.product-item p {
+    font-size: 14px; /* Tamaño de fuente */
+    color: #555; /* Color de texto gris */
+}
+.product-item button {
+    padding: 8px 16px; /* Espaciado interno */
+    margin-top: 8px; /* Margen superior */
+    background-color: #539fa2; /* Fondo color1 */
+    color: #fff; /* Texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Esquinas redondeadas */
+    cursor: pointer; /* Cursor de puntero */
+}
+.product-item button:hover {
+    background-color: #c4dbb4; /* Fondo color4 al pasar el cursor */
+}

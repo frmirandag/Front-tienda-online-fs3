@@ -1,0 +1,14 @@
+<!-- carrito.component.html -->
+<div>
+  <h2>Carrito de Compras</h2>
+  <ul>
+    <li *ngFor="let item of cart">
+      {{ item.name }} - {{ formatCurrency(item.price * item.quantity) }}
+      <button (click)="removeFromCart(item)">Eliminar</button>
+    </li>
+  </ul>
+  <p>Subtotal: {{ formatCurrency(calculateSubtotal()) }}</p>
+  <p>Total: {{ formatCurrency(calculateTotal()) }}</p>
+  <button (click)="checkout()">Pagar</button>
+  <button (click)="clearCart()">Vaciar Carrito</button>
+</div>

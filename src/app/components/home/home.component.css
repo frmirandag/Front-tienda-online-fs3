@@ -1,0 +1,16 @@
+/* Estilo de la página de inicio */
+#home_div {
+    background-color: #72b1a4; /* Fondo color2 */
+    padding: 40px; /* Espaciado interno */
+    border-radius: 10px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    text-align: center; /* Alineación de contenido centrado */
+}
+
+#home_div img {
+    display: block; /* Asegura que la imagen sea un bloque */
+    margin: 0 auto; /* Margen automático en los lados para centrar horizontalmente */
+    max-width: 100%; /* Ancho máximo de la imagen */
+    height: auto; /* Altura automática para mantener la proporción */
+    margin-top: 20px; /* Espacio superior */
+}

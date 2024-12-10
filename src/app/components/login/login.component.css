@@ -1,0 +1,10 @@
+.login-container {
+  background-color: #aaaaaa; /* Fondo gris claro */
+  padding: 40px; /* Espaciado interno */
+  border-radius: 10px; /* Esquinas redondeadas */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.login-container h2 {
+  color: #539fa2; /* Color de texto color1 */
+}
